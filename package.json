@@ -1,0 +1,44 @@
+{
+  "name": "electron-canvas-draw",
+  "version": "1.0.0",
+  "description": "A simple drawing application using Electron.js, Next.js, and Fabric.js",
+  "main": "main.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "electron-dev": "electron .",
+    "electron-pack": "electron-builder --dir",
+    "electron-dist": "electron-builder --dir"
+  },
+  "build": {
+    "appId": "com.electron.canvas-draw",
+    "productName": "Canvas Draw",
+    "files": [
+      "main.js",
+      "preload.js",
+      "out/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "portable"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-is-dev": "^2.0.0",
+    "konva": "^9.3.20",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-konva": "^18.2.10"
+  },
+  "devDependencies": {
+    "electron": "^21.4.4",
+    "electron-builder": "^23.6.0"
+  }
+}

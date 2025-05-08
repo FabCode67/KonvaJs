@@ -1,0 +1,12 @@
+{
+  "name": "electron-canvas-draw",
+  "version": "1.0.0",
+  "description": "A simple drawing application using Electron.js and HTML Canvas",
+  "main": "simple-main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^21.4.4"
+  }
+}

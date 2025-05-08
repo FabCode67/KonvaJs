@@ -1,0 +1,25 @@
+Starting application debug log 
+ 
+Running: npm install --no-audit 
+
+up to date in 2s
+
+31 packages are looking for funding
+  run `npm fund` for details
+Dependency installation complete 
+ 
+Running: npm start 
+
+> electron-canvas-draw@1.0.0 start
+> next start
+
+   ▲ Next.js 14.0.4
+   - Local:        http://localhost:3000
+
+[Error: ENOENT: no such file or directory, open 'C:\Users\fab\Documents\electron-test-app\out\BUILD_ID'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\fab\\Documents\\electron-test-app\\out\\BUILD_ID'
+}
+Application has exited with code: 1 
